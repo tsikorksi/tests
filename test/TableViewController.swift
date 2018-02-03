@@ -12,7 +12,7 @@ class TableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //reloadData()
+        self.tableView.reloadData()
         tableView.delegate = self
         tableView.dataSource = self
         // Uncomment the following line to preserve selection between presentations
